@@ -1,42 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Blocks & Divs</title>
+  </head>
+  <body>
+    <section class="block-section">
+      <div class="block-container">
+        <div class="content-block grid-one">
+          <div class="grid-one-content">
+            <p class="text-normal-black">Create and schedule <br>content <p class="text-normal-violette">quicker.</p></p>
+            <div class="CreatePost-button">Create Post +</div>
+          </div>
+        </div>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Bento grid</title>
+        <div class="content-block grid-two">
+          <p class="text-normal-white">Social Media <span class="text-big-yellow">10x</span> <br><span class="fast-AI"><i>Faster</i> &nbsp with AI</span></p>
+          <div class="star-container">
+            <div class="stars"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></div>
+            <p class="star-rating-text">Over 4,000 5-star reviews</p>
+          </div>
+        </div>
+        <div class="content-block grid-three">
+          <p class="text-normal-black-three">Schedule to <br> social media.</p>
+          <img class="schedule-post-img" src="./assets/images/illustration-schedule-posts.webp" alt="social media statistics">
+          <p class="schedule-post-text">Optimize post timings <br> to publish content at <br> the perfect time for <br> your audience.</br></p>
+        </div>
+        <div class="content-block grid-four">
+          <p  class="text-normal-black-four">Write your<br> Content<br> using AI.</p>
+          <div class="messenger-container">
+            <div class="messernger-box-1-container">
+              <span class="emoji-1">🧑</span>
+              <div class="messernger-box-1">Give me 5 tips<br> to grow my <br>follower on Insta!</div>
+            </div>
+            <ion-icon class="arrow-up" name="arrow-up-outline"></ion-icon>
+            <div class="messernger-box-1-container">
+              <span class="emoji-2">💠</span>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+              <div class="messernger-box-2">Certainly! Here <br> are five tips to <br> help you grow <br> your instagram...</br></div>
+            </div>
+          </div>
+        </div>
+        <div class="content-block grid-five">
+          <div class="slider-container">
+            <div class="slider">
+              <ion-icon class="logo-instagram" name="logo-instagram"></ion-icon>
+              <div class="insta-info-box">
+                <p class="insta-profil">@azialexa...</p>
+                <p class="insta-followers">105k followers</p>
+              </div>
+            </div>
+            <div class="slider">
+              <ion-icon class="logo-instagram" name="logo-instagram"></ion-icon>
+              <div class="insta-info-box">
+                <p class="insta-profil">@flolo90...</p>
+                <p class="insta-followers">36k follow...</p>
+              </div>
+            </div>
+          </p>
+        </div>
+        <p class="text-normal-black-five">Mangage <br> multipl <br>accounts and <br>platforms.
 
-  Social Media 10x Faster with AI
-  Over 4,000 5-star reviews
-
-  Manage multiple accounts and platforms.
-
-  Maintain a consistent posting schedule.
-
-  Schedule to social media.
-  Optimize post timings to publish content at the perfect time for your audience.
-  
-  Grow followers with non-stop content.
-
-  >56% faster audience growth
-  
-  Create and schedule content quicker.
-
-  Write your content using AI.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+        </div>
+        <div class="content-block grid-six">
+          <p  class="text-normal-black-six">Maintain a<br>consistent<br>posting<br>schedule.</p>
+          <div>
+            <div class="calender-header">
+              <p class="calender-date">August 2024</p>
+              <p class="calender-week">Week1</p>
+            </div>
+            <div  class="calender-body">
+              <ion-icon class="calender-icon" name="checkmark-outline"></ion-icon>
+              <ion-icon class="calender-icon"  name="checkmark-outline"></ion-icon>
+              <ion-icon class="calender-icon"  name="checkmark-outline"></ion-icon>
+              <ion-icon class="calender-icon"  name="checkmark-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <div class="content-block grid-seven">
+          <p class="percent-big">>56%</p>
+          <p class="percent-text">faster audience growth</p>
+          <div class="percent-avatar-container">
+            <div class="avatar">🧑</div>
+            <div class="avatar">👩‍🦱</div>
+            <div class="avatar">👨‍🦳</div>
+          </div>
+        </div>
+        <div class="content-block grid-eigth">
+          <img class="follower-growth-img" src='./assets/images/illustration-grow-followers.webp' alt="follower-growth">
+          <p class="follower-growth-text">Grow followers <br>with non-stop <br> content.</p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
